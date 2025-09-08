@@ -1,0 +1,6 @@
+[SSAAT_Listener_AvengerHud]
+Button_Label="Gestion d'escouade"
+Button_Description="Gérer l'escouade sans aller en mission"
+
+ButtonAdvanced_Label="Gestion d'escouade (avancé)"
+ButtonAdvanced_Description="Ouvrir l'écran de Gestion d'escouade et montrer ses fonctionnalités avancées<br/>Ces fonctionnalités sont destinées à être utilisés par d'autres mods"
