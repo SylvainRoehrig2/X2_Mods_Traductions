@@ -1,0 +1,9 @@
+[UIInventory_ListItem_Extra]
+DeleteButtonText="CACHER"
+UndeleteButtonText="MONTRER"
+
+[UIInventory_Storage_Override]
+ConfirmExitTitle = "Confirmer la suppression"
+ConfirmExitBody = "En quittant l'Inventaire, les objets marqués seront supprimés pour toujours !\n\nObjets à supprimer: "
+ConfirmExitOK = "OK"
+ConfirmExitCancel = "Annuler"
