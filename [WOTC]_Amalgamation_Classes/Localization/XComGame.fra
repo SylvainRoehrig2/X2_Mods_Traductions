@@ -1,0 +1,24 @@
+[F_ReadyForAnything X2AbilityTemplate]
+LocLongDescription="En effectuant un tir standard avec votre arme principale, vous entrez automatiquement en Vigilance. Incompatible avec les Fusils Sniper."
+
+[DeathFromAbove X2AbilityTemplate]
+LocLongDescription="Tuer un ennemi en contrebas avec votre arme principale ne coûte qu'une action, et ne mets pas fin à votre tour. S'active une fois par tour."
+
+[LW2WotC_CloseandPersonal X2AbilityTemplate]
+LocLongDescription="Confère +15 de chance de tir critique contre des cibles adjacentes. Le bonus s'amenuise selon la distance vous séparant de la cible."
+LocHelpText="Confère +15 de chance de tir critique contre des cibles adjacentes. Le bonus s'amenuise selon la distance vous séparant de la cible."
+LocPromotionPopupText="<Bullet/> Confère +15 de chance de tir critique contre des cibles adjacentes.<br/><Bullet/> Le bonus est réduit de 5% pour chaque case additionnelle de distance vous séparant de la cible, jusqu'à 0% à 7+ cases.<br/>"
+
+[BS_RapidStun X2AbilityTemplate]
+LocLongDescription="La prochaine attaque avec l'Électro-Flux ne coûte aucune action. 5 tours de recharge."
+LocHelpText="La prochaine attaque avec l'Électro-Flux ne coûte aucune action. 5 tours de recharge."
+LocPromotionPopupText="<Bullet/> La prochaine attaque avec l'Électro-Flux ne coûte aucune action.<br/><Bullet/> 5 tours de recharge.<br/><Bullet/> S'applique aux compétences Étourdissement, Électro-Pulsation et Enchaînement Électrique.<br/>"
+
+[LW2WotC_Ghostwalker X2AbilityTemplate]
+LocLongDescription="Réduit la portée de détection de l'ennemi contre l'escouade par 50% pour le reste du tour et le tour suivant. <Ability:GHOSTWALKER_COOLDOWN> tours de recharge."
+LocHelpText="Réduit la portée de détection de l'ennemi par 50% pendant <Ability:GHOSTWALKER_DURATION> tours."
+LocPromotionPopupText="<Bullet/> Réduit la portée de détection de l'ennemi contre l'escouade par 50% pendant <Ability:GHOSTWALKER_DURATION> tours (y compris le tour actuel), indiqué par les cases rouges entourant les ennemis non-alertés.<br/><Bullet/> <Ability:GHOSTWALKER_COOLDOWN> tours de recharge.<br/><Bullet/> Ne requiert pas d'action pour être activé.<br/><Bullet/> Ne s'applique pas aux tours de sécurité d'ADVENT."
+
+[HuntersInstinct X2AbilityTemplate]
+LocLongDescription="Les attaques à distance contre les ennemis contournés font +<Ability:HUNTERSINSTINCTDMG/> points de dégâts."
+LocHelpText="Les attaques à distance contre les ennemis contournés font +<Ability:HUNTERSINSTINCTDMG/> points de dégâts."
