@@ -1,0 +1,44 @@
+[robojumper_UISquadSelect]
+strSwitchPerspective=Changer de Vue
+strSwitchPerspectiveTooltip=Changer entre la vue d'ensemble et la perspective habituelle.
+
+strCycleLists=Parcourir les listes
+
+strUnequipSquad=Déséquiper l'escouade
+strUnequipSquadTooltip=Retire l'équipement de toutes les unités sélectionnés pour cette mission.
+strUnequipSquadConfirm=Confirmer le retrait d'équipement
+strUnequipSquadWarning=Vous enlèverez tout l'équipement des soldats sélectionnés pour la mission actuelle. N'importe quel soldat pourra alors s'en équiper immédiatement.
+
+strUnequipBarracks=Déséquiper les soldats dans la caserne
+strUnequipBarracksTooltip=Retire l'équipement de toutes les unités qui ne sont PAS sélectionnés pour cette mission.
+strUnequipBarracksConfirm=Confirmer le retrait d'équipement (caserne)
+strUnequipBarracksWarning=Vous enlèverez tout l'équipement des soldats qui ne sont PAS sélectionnés pour la mission actuelle. N'importe quel soldat pourra alors s'en équiper immédiatement.
+
+[robojumper_SquadSelect_UISL_MCM]
+strModTitle="robojumper's Squad Select"
+strLabel="Squad Select"
+strGroupTitle="Options globales"
+
+strShowWeaponUpgradeIcons=Afficher les emplacements d'améliorations
+strSkipSecondaryUpgradeIconsAvailable=Afficher les emplacements d'améliorations pour les armes principales uniquement
+strShowBGImages=Afficher l'objet en image de fond
+strShowMeTheSkills=Afficher les capacités des soldats
+strShowStats=Afficher les statistiques des soldats
+strSkipInitialAbilities=Ne pas afficher les capacités de 2ème classe
+strAutofillSquad=Remplir automatiquement l'escouade
+strOpenWeaponUpgradeWithController=Ouvrir le menu d'amélioration d'armes avec la manette
+
+strDisallowInfiniteScrolling=Interdire le déroulement infini
+strSkipIntro=Passer l'intro
+
+strSquadSize=Taille de l'escouade
+
+strSquadSizeSpawnWarning=Les escouades à plus de 9 soldats peuvent causer des problèmes, car les points d'apparition ne sont prévus par défaut que pour 9 unités. Allez sur la page du workshop du mod pour y trouver des solutions !
+
+
+strHideTrainingCenterButton=Cacher le bouton du Centre d'Entraînement
+
+[robojumper_UISquadSelect_SkillsPanel]
+strTrainingCenter=%SOLDIERPOINTS PC Soldat
+; removed because duplicate info bad
+; (%TOTALPOINTS in Shared Pool)
