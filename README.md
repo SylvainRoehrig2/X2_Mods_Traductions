@@ -11,7 +11,7 @@ Pour installer la traduction d'un mod :
 
 Vous devez donc trouver le dossier de la forme:
 
-`\<chemin du jeu>\\XCom2-WarOfTheChosen\XComGame\Mods\\\<nom du mod>`
+`\<chemin du jeu>\XCom2-WarOfTheChosen\XComGame\Mods\<nom du mod>`
 
 Chaque mod a un dossier "Localization" (sauf les mods qui n'ont pas besoin d'être tarduits)
 
@@ -20,4 +20,8 @@ C'est dans ce dossier "Localization que vous devez mettre le contenu du dossier 
 En général, ce sont des fichiers à l'extension .fra ou un dossier nommé FRA contenant des fichiers .fra
 
 # Pourquoi ne pas plutôt utiliser X2CommunityTranslation ?
-Vous pouvez ! Mais malheureusement, les mods changeant le texte du jeu de base ne sont pas acceptés sur ce repository. Cela veut donc dire que de nombreux mods ne sont pas présents sur ce repository (Covert Infiltration, Amalgamation Classes, etc...), c'est pour cela que j'essaie de pallier à cela en traduisant des mods populaires (et que j'utilise) mais qui modifient aussi le texte du jeu de base.
+Vous pouvez ! Mais malheureusement, les mods changeant le texte du jeu de base ne sont pas acceptés sur ce repository.
+
+Cela veut donc dire que de nombreux mods ne sont pas présents sur ce repository (Covert Infiltration, Amalgamation Classes, etc...)
+
+C'est pour cela que j'essaie de pallier à cela en traduisant des mods populaires (et que j'utilise) mais qui modifient aussi le texte du jeu de base.
