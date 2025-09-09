@@ -1,0 +1,49 @@
+[POI_Prototype_T2 X2PointOfInterestTemplate]
+DisplayNames[0]="SOS de la Résistance"
+
+CompletedSummaries[0]="Alors que nous scannions cette zone, nous avons trouvé un signal SOS venant d'une installation cachée aux confins des ruines de la ville. Il semblerait que des scientifiques ont fuit ADVENT et ont continué leurs recherches en cachette. On ne sait pas ce qui leur ait arrivé, mais nous avons trouvé dans les décombres un prototype fonctionnel qui semble au-delà de tout ce que nous avons encore développé."
+
+POIImages[0]="img:///UILibrary_StrategyImages.X2StrategyMap.POI_OvergrownCity"
+
+[Reward_PrototypeT2 X2RewardTemplate]
+DisplayName="Prototype avancé"
+
+[POI_Prototype_T3 X2PointOfInterestTemplate]
+DisplayNames[0]="Signal de l'ancien XCOM"
+
+CompletedSummaries[0]="En suivant un signal anciennement utilisé par XCOM durant l'invasion, nous avons trouvé un bunker souterrain, s'apparentant à un laboratoire de recherche. L'installation a été abandonnée, et des impacts de tirs de plasma jonchent les murs. Sur les cadavres des soldats qui gardaient les lieux, nous avons trouvé des armes similaires à celles des Extraterrestres, et sur l'un d'eux se trouvait un objet encore en état de marche."
+
+POIImages[0]="img:///UILibrary_StrategyImages.X2StrategyMap.POI_WhatsInTheBarn"
+
+[Reward_PrototypeT3 X2RewardTemplate]
+DisplayName="Prototype avancé"
+
+[POI_Sidegrade_T1 X2PointOfInterestTemplate]
+DisplayNames[0]="Bunker de l'Ancien Monde"
+
+CompletedSummaries[0]="La Résistance locale nous as parlé d'un bunker de l'ancien monde caché dans les montagnes. Les scanners du Talion l'ont facilement retrouvé, mais hélas la grande partie du complexe a été détruire par un tir orbital plasmique. Cependant, quelques salles annexes assez éloignées de la zone d'impact ont été épargnées, et une d'entre elle était une armurerie avec quelques vieilles armes encore intactes."
+
+POIImages[0]="img:///UILibrary_StrategyImages.X2StrategyMap.POI_RadioTower"
+
+[Reward_SidegradeT1 X2RewardTemplate]
+DisplayName="Prototype d'objets"
+
+[POI_Sidegrade_T2 X2PointOfInterestTemplate]
+DisplayNames[0]="SOS de la Résistance"
+
+CompletedSummaries[0]="Alors que nous scannions cette zone, nous avons trouvé un signal SOS venant d'une installation cachée aux confins des ruines de la ville. Il semblerait que des ingénieurs ont fuit ADVENT et ont continué leurs projets en cachette. On ne sait pas ce qui leur ait arrivé, mais à l'aide du scanner du Talion, nous avons découvert la présence d'un coffre-fort enterré profondément sous le sol. Nous l'avons déterré, et avons trouvé des objets fabriqués par ces ingénieurs à l'intérieur."
+
+POIImages[0]="img:///UILibrary_StrategyImages.X2StrategyMap.POI_OvergrownCity"
+
+[Reward_SidegradeT2 X2RewardTemplate]
+DisplayName="Prototype d'objets"
+
+[POI_Sidegrade_T3 X2PointOfInterestTemplate]
+DisplayNames[0]="Signal de l'ancien XCOM"
+
+CompletedSummaries[0]="En suivant un signal anciennement utilisé par XCOM durant l'invasion, nous avons trouvé un bunker souterrain, s'apparentant à une usine. L'installation a été abandonnée, et des impacts de tirs de plasma jonchent les murs. Sur les cadavres des soldats qui gardaient les lieux, nous avons trouvé des armes très avancées, que les extraterrestres ont volontairement endommagé. Mais près de l'auto-fabricateur principal, un panneau de contrôle était toujours allumé. Avec l'un de nos anciens codes, nous sommes parvenus à ouvrir un coffre rempli d'objets."
+
+POIImages[0]="img:///UILibrary_StrategyImages.X2StrategyMap.POI_WhatsInTheBarn"
+
+[Reward_SidegradeT3 X2RewardTemplate]
+DisplayName="Prototype d'objets"
