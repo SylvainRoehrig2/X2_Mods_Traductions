@@ -1,0 +1,24 @@
+[LSEventListener_UI]
+strCrewSizeTitle="ÉQUIPAGE"
+
+[UIAlert_LivingSpace]
+strCrewOverflowTitle=Équipage en Surcapacité
+strCrewOverflowHeader=Quartiers d'habitation
+strCrewOverflowDescription="Le Talion transporte plus de personne que l'on ne peut accommoder, certains de nos soldats dorment par terre ! Le moral en prend un coup, et la récupération de volonté de nos soldats s'en retrouve allongé. Nous devrions améliorer les Quartiers d'habitation pour avoir plus de places, ou congédier nos membres les moins essentiels."
+strCrewOverflowNoWorkshop="Nous pouvons aussi construire un espace dédié qui fera office de quartiers pour nos ingénieurs (<XGParam:StrValue1>)."
+strCrewOverflowNoLaboratory="Nous pouvons aussi construire un espace dédié qui fera office de quartiers pour nos scientifiques (<XGParam:StrValue0>)."
+strCrewOverflowNeitherFacility="Nous pouvons aussi construire un espace dédié qui fera office de quartiers pour nos ingénieurs (<XGParam:StrValue1>) et scientifiques (<XGParam:StrValue0>)."
+strCrewOverflowSparks"Il y a (<XGParam:IntValue0>) unités robotiques de plus qu'il n'y a d'Aires de Réparations, augmentant la taille de l'équipage. Déverrouillez plus d'espace en Ingénierie si possible, ou démantelez quelques unités robotiques."
+
+[X2StrategyElement_LSFacilityUpgrades]
+DisplayName="Taille d'équipage:"
+FacilityName="Quartiers d'habitation"
+Summary="Augmente la capacité d'équipage de %QTY, permettant d'avoir plus de personnel sans pénalité de récupération de volonté."
+
+[LivingSpace_MCMScreen]
+ModName="Living Space"
+PageTitle="Living Space"
+UserInterfaceGroupHeader="UI"
+
+bShowCrewCountOnGeoscape_Label="Afficher la taille de l'équipage sur le Géoscape"
+bShowCrewCountOnGeoscape_Tip="Ne modifie pas l'affichage de la taille de l'équipage ailleurs"
