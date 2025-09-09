@@ -1,0 +1,18 @@
+[PrototypeArmoury_MCMScreen]
+ModName=Prototype Armoury
+PageTitle=Prototype Armoury
+
+CanBeChangedInSaveTitle=Peut être activé/désactivé en pleine campagne
+REMOVE_NICKNAMED_UPGRADES_Label=Retirer les améliorations des objets nommés
+REMOVE_NICKNAMED_UPGRADES_Tip="Désactiver cette option permettra aux objets ayant été nommées de garder leurs améliorations lorsque le bouton 'RENDRE LES AMÉLIORATIONS DISPONIBLES' est appuyé sur l'écran de sélection d'escouade"
+
+CanNotBeChangedInSaveTitle=Ne peut PAS être activé/désactivé en pleine campagne
+FORCE_LOCK_AND_LOAD_Label=Toujours activer le remplacement sans destruction
+FORCE_LOCK_AND_LOAD_Tip="Permet de toujours remplacer une amélioration d'objet sans détruire l'amélioration précédente. Nécessite de relancer le jeu"
+
+[UIUtilities_PA]
+strDropUpgrade=RETIRER LES AMÉLIORATIONS
+strStripUpgrades=RENDRE DISPONIBLES LES AMÉLIORATIONS
+strStripUpgradesTooltip=Retire toutes les améliorations des objets qui ne sont PAS équipés par les soldats actuellement sélectionnés pour la mission.
+strStripUpgradesConfirm=CONFIRMER LA MISE A DISPOSITION DES AMÉLIORATIONS
+strStripUpgradesConfirmDesc=Cela retirera toutes les améliorations des objets qui ne sont PAS équipés par les soldats actuellement sélectionnés pour la mission. Ces améliorations seront disponibles immédiatement. Les améliorations présentes sur les armes ayant été nommées seront <XGParam:StrValue0>. Cela peut être modifié dans MCM (Options de Mods dans le Menu Principal).
