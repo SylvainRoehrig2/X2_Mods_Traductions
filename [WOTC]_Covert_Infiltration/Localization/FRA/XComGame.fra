@@ -1,0 +1,434 @@
+[ResistanceRing X2FacilityTemplate]
+CompletedSummary="Des Ordres de la Résistance sont disponibles!\nNouvel Emplacement de Personnel Disponible - ajoute +1 emplacement d'ordre"
+Summary="Le Cercle de la Résistance permet d'assigner des Ordres de la Résistance mensuellement."
+
+[ResistanceRingStaffSlot X2StaffSlotTemplate]
+BonusEmptyText="Octroie +1 emplacement d'ordre"
+BonusText="ORDRE +%AVENGERBONUS"
+FilledText="%UNITNAME aide la Résistance à s'organiser, permettant d'effectuer plus d'ordres"
+
+[InfiltrationStaffSlot X2StaffSlotTemplate]
+EmptyText="SOLDAT"
+BonusText="INFILTRATION"
+
+[CovertActionNarrative_IntelligenceInfiltrate X2CovertActionNarrativeTemplate]
+ActionName="Pirater la banque de données d'ADVENT"
+ActionPreNarrative="Notre meilleure chance de <XGParam:StrValue4/> est de pirater cette banque de données. En plus d'informations sur nos cibles, elle devrait aussi contenir d'autres renseignements utiles."
+ActionPostNarrative=""
+
+[CovertActionNarrative_InformantInfiltrate X2CovertActionNarrativeTemplate]
+ActionName="Sauver l'informateur de la Résistance"
+ActionPreNarrative="Un informateur de la Résistance cherchait des solutions pour <XGParam:StrValue4/>, mais cet informateur a été capturé. Nous devons l'aider à s'évader pour découvrir ce qu'il a trouvé."
+ActionPostNarrative=""
+
+[CovertActionNarrative_DistractionInfiltrate X2CovertActionNarrativeTemplate]
+ActionName="Créer une diversion"
+ActionPreNarrative="Si nous voulons <XGParam:StrValue4/>, nous devons écarter les troupes d'ADVENT de la zone. Attaquer une cible de haute importance fera l'affaire, en plus de nous assurer une belle propagande."
+ActionPostNarrative=""
+
+[CovertActionNarrative_SabotageInfiltrate X2CovertActionNarrativeTemplate]
+ActionName="Saboter l'installation d'ADVENT"
+ActionPreNarrative="Détruire l'installation d'ADVENT dans la région est le meilleur moyen de <XGParam:StrValue4/>. En choisissant nos cibles avec soin, nous pourrions aussi grandement perturber le réseau de communications d'ADVENT."
+ActionPostNarrative=""
+
+[CovertActionNarrative_PersonnelRescue X2CovertActionNarrativeTemplate]
+ActionName="Sauver du personnel d’XCOM"
+ActionPreNarrative="Enfin, nous sommes prêts à <XGParam:StrValue4/> des griffes d'ADVENT. Même avec tous ses angles morts, la prison qui abrite notre personnel est une cible complexe."
+ActionPostNarrative=""
+
+[CovertActionNarrative_CaptureDVIP X2CovertActionNarrativeTemplate]
+ActionName="Capturer le collaborateur d'ADVENT"
+ActionPreNarrative="Nous y voilà, nous pouvons <XGParam:StrValue4/>. Le collaborateur va visiter une installation d'ADVENT dans un des centres de la ville, et nous comptons l'attaquer à son retour pour minimiser la présence ennemie."
+ActionPostNarrative=""
+
+[CovertActionNarrative_PreparePersonnel X2CovertActionNarrativeTemplate]
+ActionName="Enquêter sur des Rapports de Trahison"
+ActionPreNarrative="Nos informateurs ont parlé de l'arrestation d'une figure académique importante ayant des ''pensées anti-patriotiques''. Afin de <XGParam:StrValue4/>, nous devons découvrir où il est détenu."
+ActionPostNarrative="Nos informateurs ont trouvé la prison dans laquelle se trouve la figure académique majeure, et surtout un angle mort pour pouvoir y pénétrer. Nous pouvons attaquer dès maintenant pour tenter de la libérer !"
+
+[CovertActionNarrative_PrepareFactionJB X2CovertActionNarrativeTemplate]
+ActionName="Consulter la faction"
+ActionPreNarrative="Nous aurions besoin de soutien additionnel de la part des <XGParam:StrValue0/>. En envoyant une délégation, ils pourraient nous envoyer un autre soldat rejoindre les rangs de XCOM."
+ActionPostNarrative="Bonne nouvelle, les <XGParam:StrValue0/> ont acceptés notre proposition. Mauvaise nouvelle, le soldat qui devait nous rejoindre vient d'être capturé. Nous allons devoir le libérer pour profiter de son talent."
+
+[CovertActionNarrative_PrepareUFO X2CovertActionNarrativeTemplate]
+ActionName="Forcer l'OVNI à atterrir"
+ActionPreNarrative="Avec les codes de contrôle que nous avons, nous pouvons forcer un OVNI <font color='#CBB11F'>à atterrir</font>. Il faudra alors mettre en place le brouilleur pour retarder ses appels à l'aide lorsque l'escouade d'assaut y pénétrera. C'est une opportunité unique, il n'y aura pas de seconde chance."
+ActionPostNarrative="Commandant, nous avons réussi ! Le vaisseau extraterrestre s'est posé, et le brouilleur est en place. Il commencent à avoir des doutes cependant, alors nous devons agir vite."
+
+[CovertActionNarrative_PrepareFacility X2CovertActionNarrativeTemplate]
+ActionName="Identifier les Coordinateurs du projet Avatar"
+ActionPreNarrative="Les Aliens ont caché toute information concernant leurs <font color='#842015'>installations du projet Avatar</font> assez profondément, mais il y a sans doute au moins un humain qui sait des choses. Un maillon faible. Nous devons juste le trouver."
+ActionPostNarrative="Commandant, après avoir 'emprunté' des données à ADVENT, mon équipe à découvert qu'un humain haut-gradé avait participé à la construction d'une <font color='#842015'>installation du projet Avatar</font>. Mieux encore, nous savons de qui il s'agit."
+
+[InfiltrationSize1 X2SoldierUnlockTemplate]
+DisplayName="Taille d'infiltration I"
+Summary="Les escouades de 5 soldats ne subissent plus de pénalité de temps d'infiltration, et peuvent atteindre une Sur-Infiltration de 250%."
+
+[InfiltrationSize2 X2SoldierUnlockTemplate]
+DisplayName="Taille d'infiltration II"
+Summary="Les escouades de 6 soldats ne subissent plus de pénalité de temps d'infiltration, et peuvent atteindre une Sur-Infiltration de 250%.\n\nREQUIERT TAILLE D'INFILTRATION I"
+
+[UpdatedFirewalls X2SitRepTemplate]
+FriendlyName="Pare-feux Mis à jour"
+Description="La défense technique de l'ennemi est augmentée de <Ability:UPDATED_FIREWALLS_HACK_DEFENSE_BONUS/> et les tours d'ADVENT ne peuvent être piratées"
+
+[MentalReadiness X2SitRepTemplate]
+FriendlyName="Préparation mentale"
+Description="L'escouade gagne +<Ability:MENTAL_READINESS_VALUE/> à leurs statistiques d'esquive, de piratage et de défense psi"
+
+[LightningStrike X2SitRepTemplate]
+FriendlyName="Comme l'éclair"
+Description="les unités d’XCOM gagnent +<Ability:LIGHTNINGSTRIKEMOVEBONUS/> de mobilité pour les <Ability:LIGHTNINGSTRIKEDURATIONACTUAL/> premiers tours tant que l'escouade est camouflée."
+
+[AdventPatrols X2SitRepTemplate]
+FriendlyName="Démonstration de force"
+Description="Chaque groupe d'ADVENT contient une unité supplémentaire"
+
+[GunneryEmplacements X2SitRepTemplate]
+FriendlyName="Emplacements de tourelles"
+Description="ADVENT a déployé des tourelles supplémentaires sur le terrain"
+
+[Phalanx_CI X2SitRepTemplate]
+FriendlyName="Précaution d'ADVENT"
+Description="Tous les groupes ennemis contiennent un Porteur de bouclier"
+
+[Congregation X2SitRepTemplate]
+FriendlyName="Inquisition d'ADVENT"
+Description="Tous les groupes ennemis contiennent un Prêtre"
+
+[ShoddyIntel X2SitRepTemplate]
+FriendlyName="Renseignements erronés"
+Description="Vous avez 1 tour en moins pour compléter la mission"
+
+[WellRehearsed X2SitRepTemplate]
+FriendlyName="Renseignements de qualité"
+Description="Vous avez 1 tour en plus pour compléter la mission"
+
+[VolunteerArmy X2SitRepTemplate]
+FriendlyName="Volontaire"
+Description="Un soldat de la Résistance rejoint l'escouade pour cette mission"
+
+[IntelligenceLeak X2SitRepTemplate]
+FriendlyName="Opération divulguée"
+Description="L'escouade commence sans camouflage, et la portée de détection de l'ennemi est augmentée de 33%"
+
+[Foxholes X2SitRepTemplate]
+FriendlyName="Tranchées"
+Description="+<Ability:FOXHOLES_MOBILITY/> de mobilité et +<Ability:FOXHOLES_DEFENSE/> de défense si derrière une couverture basse"
+
+[TacticalAnalysis X2SitRepTemplate]
+FriendlyName="Analyse tactique"
+Description="Les ennemis alertés pendant le tour de XCOM perdent une action au prochain tour"
+
+[AdventAirPatrols X2SitRepTemplate]
+FriendlyName="Patrouille Aérienne"
+Description="Des renforts d'ADVENT supplémentaires apparaîtront sur le terrain une fois l'ennemi alerté"
+
+[CommsJamming X2SitRepTemplate]
+FriendlyName="Brouillage des communications"
+Description="Les premiers renforts d'ADVENT sont retardés"
+
+[OpportuneMoment1 X2SitRepTemplate]
+FriendlyName="Moment opportun I"
+Description="-<Ability:OPPORTUNE_MOMENT_1_DETECTION_MODIFIER/>% au rayon de détection ennemi, +<Ability:OPPORTUNE_MOMENT_1_CRIT_BONUS/>% chance de tir critique"
+
+[OpportuneMoment2 X2SitRepTemplate]
+FriendlyName="Moment opportun II"
+Description="-<Ability:OPPORTUNE_MOMENT_2_DETECTION_MODIFIER/>% au rayon de détection ennemi, +<Ability:OPPORTUNE_MOMENT_2_CRIT_BONUS/>% chance de tir critique"
+
+[MessyInsertion X2SitRepTemplate]
+FriendlyName="Arrivée foireuse"
+Description="L'escouade commence la mission avec <Ability:MESSYINSERTION_WILLLOSS/>% de fatigue et un soldat sera blessé à <Ability:MESSYINSERTION_HEALTHLOSS/>%"
+
+[RestrictedAirspace X2SitRepTemplate]
+FriendlyName="Défense Aérienne"
+Description="L'Oiseau de Feu ne peut récupérer l'escouade qu'une fois tous les ennemis éliminés"
+
+[ExperimentalRollout X2SitRepTemplate]
+FriendlyName="Déploiement expérimental"
+Description="Tous les ennemis ont <Ability:EXPERIMENTALROLLOUT_CRITMODIFIER/> de défense critique et <Ability:EXPERIMENTALROLLOUT_EXPLOSIVEDAMAGE/>% de résistance aux dégâts explosifs lorsqu'ils ont tout leurs PV"
+
+[EquipmentCache X2SitRepTemplate]
+FriendlyName="Cache d'armes"
+Description="Chaque soldat dans l'escouade reçoit un objet utilitaire basique supplémentaire"
+
+[CovertActionRisk_IntelligenceLeak X2CovertActionRiskTemplate]
+RiskName="Opération Divulguée"
+
+[CovertActionRisk_AdventAirPatrols X2CovertActionRiskTemplate]
+RiskName="Patrouille Aérienne"
+
+[CovertActionRisk_ShoddyIntel X2CovertActionRiskTemplate]
+RiskName="Renseignements erronés"
+
+[CovertActionRisk_UpdatedFirewalls X2CovertActionRiskTemplate]
+RiskName="Pare-feux Mis à jour"
+
+[CovertActionRisk_Phalanx_CI X2CovertActionRiskTemplate]
+RiskName="Précaution d'ADVENT"
+
+[CovertActionRisk_Congregation X2CovertActionRiskTemplate]
+RiskName="Inquisition d'ADVENT"
+
+[CovertActionRisk_MessyInsertion X2CovertActionRiskTemplate]
+RiskName="Arrivée foireuse"
+
+[CovertActionRisk_RestrictedAirspace X2CovertActionRiskTemplate]
+RiskName="Défense Aérienne"
+
+[CovertActionRisk_ExperimentalRollout X2CovertActionRiskTemplate]
+RiskName="Déploiement expérimental"
+
+[NoSquadConcealmentEffect X2SitRepEffect_ModifyTacticalStartState]
+FriendlyName="Pas de camouflage"
+Description="ADVENT a pris connaissance de notre opération, et nous ne pourrons pas être camouflés"
+
+[IntelligenceLeakDebuffEffect X2SitRepEffect_GrantAbilities]
+FriendlyName="Portée de détection accrue"
+Description="Les troupes d'ADVENT sont en alerte - nos unités camouflés seront plus facilement repérées"
+
+[MessyInsertionEffect X2SitRepEffect_ModifyTacticalStartState]
+FriendlyName="Unité blessée"
+Description="Notre équipe a rencontré une patrouille d'ADVENT sur le chemin de la mission, ils sont fatigués et un soldat est blessé"
+
+[EquipmentCacheEffect X2SitRepEffect_GrantAbilities]
+FriendlyName="Objet utilitaire supplémentaire"
+Description="La Résistance a une cache d'armes dans les environs, dont on a pu tirer avantage - nos soldats ont des objets en plus qui pourraient être utiles"
+
+[X2StrategyGameRulesetDataStructures]
+CovertActionRiskLabels[0]="Contré"
+CovertActionRiskLabels[1]="Improbable"
+CovertActionRiskLabels[2]="Mineur"
+CovertActionRiskLabels[3]="Modéré"
+CovertActionRiskLabels[4]="Majeur"
+CovertActionRiskLabels[5]="Extrême"
+
+[XComGameState_HeadquartersXCom]
+;CovertActionsSelectOp="CHOISIR OPÉRATION" **Vanilla option for reference**
+; We don't care if the ring is built or not, always show the same message
+CovertActionsGoToRing="CHOISIR OPÉRATION"
+CovertActionsBuildRing="CHOISIR OPÉRATION"
+
+[Reward_SmallIntel X2RewardTemplate]
+DisplayName="Renseignements"
+
+[Reward_SmallIncreaseIncome X2RewardTemplate]
+DisplayName="Augmenter les revenus de la région"
+RewardDetails="Les revenus de la région seront augmentés de <XGParam:IntValue0/> ressources"
+
+[Reward_FacilityDelay X2RewardTemplate]
+DisplayName="Retarder la construction de l'installation"
+RewardDetails="La prochaine construction d'installation sera retardée de <XGParam:IntValue0/> jours"
+
+[Reward_Rumor X2RewardTemplate]
+DisplayName="Rumeur de la Résistance"
+RewardDetails="Dévoile un site de scan sur le Géoscape"
+
+[Reward_Materiel X2RewardTemplate]
+DisplayName="Matériel ennemi"
+RewardDetails="Récupérer du matériel ennemi et des ressources"
+
+[Reward_Progress X2RewardTemplate]
+DisplayName="Continuer le Fil"
+RewardDetails="Déverrouille la prochaine mission du Fil"
+
+[Reward_CounterDarkEvent X2RewardTemplate]
+DisplayName="Empêcher l'opération ennemie: <XGParam:StrValue0/>"
+
+[Reward_DelayDarkEvent X2RewardTemplate]
+DisplayName="Retarder l'opération ennemie: <XGParam:StrValue0/>"
+
+[OTSStaffSlot X2StaffSlotTemplate]
+BonusEmptyText="Entraîner les soldats en une classe spécifique"
+
+[ResCard_LiveFireTraining X2StrategyCardTemplate]
+SummaryText="Les entraînements à l'Institut de Guérilla augmentera de <XGParam:IntValue0/> le rang des soldats"
+
+[Reward_UtilityItems X2RewardTemplate]
+DisplayName="Objets utilitaires basiques"
+
+[CovertAction_UtilityItems X2CovertActionTemplate]
+ActionObjective="Récupérer les objets utiles"
+
+[CovertActionNarrative_UtilityItems_Skirmishers X2CovertActionNarrativeTemplate]
+ActionName="Réactivation d'usine"
+ActionPreNarrative="Les miens ont trouvés une usine désaffectée de l'ancien monde. Avec vos anciens codes de XCOM et un peu d'aide, nous pourrions la remettre en marche et nous en aller avec le butin avant qu'ADVENT ne nous détecte."
+ActionPostNarrative="C'est un succès ! Avec votre aide, nous avons pu un peu nous servir de l'usine et de nous en aller avant qu'ADVENT ne puisse intervenir."
+
+[CovertActionNarrative_UtilityItems_Reapers X2CovertActionNarrativeTemplate]
+ActionName="Factory Reactivation"
+ActionPreNarrative="Mon peuple a découvert une usine désaffectée de l'ancien monde. Avec vos anciens codes de XCOM et un peu d'aide, nous pourrions la remettre en marche et nous en aller avec le butin avant qu'ADVENT ne nous détecte."
+ActionPostNarrative="C'est un succès ! Avec votre aide, nous avons pu un peu nous servir de l'usine et de nous en aller avant qu'ADVENT ne puisse intervenir."
+
+[CovertActionNarrative_UtilityItems_Templars X2CovertActionNarrativeTemplate]
+ActionName="Factory Reactivation"
+ActionPreNarrative="Mes adeptes ont senti la présence d'une usine désaffectée de l'ancien monde. Avec vos anciens codes de XCOM et un peu d'aide, nous pourrions la remettre en marche et nous en aller avec le butin avant qu'ADVENT ne nous détecte."
+ActionPostNarrative="C'est un succès ! Avec votre aide, nous avons pu un peu nous servir de l'usine et de nous en aller avant qu'ADVENT ne puisse intervenir."
+
+[Reward_ExperimentalItem X2RewardTemplate]
+DisplayName="Objet expériemental"
+
+[CovertAction_ExperimentalItem X2CovertActionTemplate]
+ActionObjective="Récupérer un objet expérimental"
+
+[CovertActionNarrative_ExperimentalItem_Skirmishers X2CovertActionNarrativeTemplate]
+ActionName="Notre expérience"
+ActionPreNarrative="Les miens connaissaient un avant-poste de recherche d'ADVENT qui a depuis été envahi par les Ombres. Qui sait, les faux dieux ont peut-être oubliés de détruire l'endroit avant de partir. Nous pourrions y aller et voir s'il ne reste rien d’intérêt."
+ActionPostNarrative="La chance nous sourit. ADVENT n'a pas pu détruire à temps les parties souterraines avant l'arrivé des Ombres, et nous y avons trouvé quelque chose de spécial."
+
+[CovertActionNarrative_ExperimentalItem_Reapers X2CovertActionNarrativeTemplate]
+ActionName="Notre expérience"
+ActionPreNarrative="Mon peuple a trouvé un avant-poste de recherche d'ADVENT qui a depuis été envahi par les Ombres. Qui sait, nos ennemis ont peut-être oubliés de détruire l'endroit avant de partir. Nous pourrions y aller et voir s'il ne reste rien d’intérêt."
+ActionPostNarrative="La chance nous sourit. ADVENT n'a pas pu détruire à temps les parties souterraines avant l'arrivé des Ombres, et nous y avons trouvé quelque chose de spécial."
+
+[CovertActionNarrative_ExperimentalItem_Templars X2CovertActionNarrativeTemplate]
+ActionName="Notre expérience"
+ActionPreNarrative="Mes adeptes m'ont parlé d'un avant-poste de recherche d'ADVENT qui a depuis été envahi par les Ombres. Qui sait, les esclaves des Anciens ont peut-être oubliés de détruire l'endroit avant de partir. Nous pourrions y aller et voir s'il ne reste rien d’intérêt."
+ActionPostNarrative="La chance nous sourit. ADVENT n'a pas pu détruire à temps les parties souterraines avant l'arrivé des Ombres, et nous y avons trouvé quelque chose de spécial."
+
+[Reward_Promotions X2RewardTemplate]
+DisplayName="Promotions"
+RewardDetails="Les progrès de nos soldats ne sont pas passés inaperçus."
+
+[CovertAction_ExhaustiveTraining X2CovertActionTemplate]
+ActionObjective="Entraînement intensif"
+
+[CovertActionNarrative_ExhaustiveTraining_Skirmishers X2CovertActionNarrativeTemplate]
+ActionName="Exercices de la Résistance"
+ActionPreNarrative="L'entraînement des Escarmoucheurs est le meilleur sur cette planète, et même ailleurs. Pourquoi ne pas envoyer vos meilleurs hommes, qu'on leur montre comment on s'y prend. Sans les briser, espérons."
+ActionPostNarrative="Il faut l'admettre, vos soldats sont impressionnants. Vos hommes comme les miens s'en retrouvent plus forts et parés à combattre ADVENT."
+
+[CovertActionNarrative_ExhaustiveTraining_Reapers X2CovertActionNarrativeTemplate]
+ActionName="Exercices de la Résistance"
+ActionPreNarrative="Les Faucheurs ne suivent que les plus rigoureux des entraînements. Vos troupes pourraient apprendre une chose ou deux, voyons s'ils sont capable d'y survivre."
+ActionPostNarrative="Je n'ai jamais douté de vos soldats, et il semblerait que ma foi ait payé. Ils nous quittent en tant que Faucheurs."
+
+[CovertActionNarrative_ExhaustiveTraining_Templars X2CovertActionNarrativeTemplate]
+ActionName="Exercices de la Résistance"
+ActionPreNarrative="Mes adeptes doivent avoir une volonté d'acier, façonnée par ma main pour devenir de vrais Templiers. Vos soldats pourraient bénéficier de ce traitement... S'ils s'en montrent digne."
+ActionPostNarrative="Vos candidats avaient un caractère admirable. Si vous n'aviez pas besoin d'eux, j'en aurait déjà fait mes adeptes."
+
+[CovertAction_AlienCorpses X2CovertActionTemplate]
+ActionObjective="Récupérer des cadavres d'Aliens"
+
+[Reward_AlienCorpses X2RewardTemplate]
+DisplayName="Cadavres d'Aliens"
+
+[CovertActionNarrative_AlienCorpses_Skirmishers X2CovertActionNarrativeTemplate]
+ActionName="Piller du butin extraterrestre"
+ActionPreNarrative="Certains des miens sont tombés sur un avant-poste d'ADVENT que nous avons aisément capturé. Venez, partageons les restes de leur défaite."
+ActionPostNarrative="Espérons trouver plus encore pour atteindre notre objectif commun."
+
+[CovertActionNarrative_AlienCorpses_Reapers X2CovertActionNarrativeTemplate]
+ActionName="Piller du butin extraterrestre"
+ActionPreNarrative="ADVENT a envoyé une patrouille dans une zone que l'ont surveillait, et naturellement il n'en reste plus rien... Sauf de nombreux restes, si cela vos intéresse."
+ActionPostNarrative="Vous ne voulez que de l'équipement ? Mon meilleur cuistot est en train d'allumer le feu en ce moment."
+
+[CovertActionNarrative_AlienCorpses_Templars X2CovertActionNarrativeTemplate]
+ActionName="Piller du butin extraterrestre"
+ActionPreNarrative="Les servants des anciens tombent face à mes adeptes, comme des brins d'herbes au vent.Nous avons déjà pris ce que nous voulions sur leurs cadavres, mais il reste assez de choses pour vous."
+ActionPostNarrative="Notre cause s'agrandit chaque jour."
+
+[CovertAction_PatrolWilderness X2CovertActionTemplate]
+ActionObjective="Enquêter sur des rumeurs"
+
+[Reward_MultiPOI X2RewardTemplate]
+DisplayName="Sites de scans"
+
+[CovertActionNarrative_PatrolWilderness_Skirmishers X2CovertActionNarrativeTemplate]
+ActionName="Patrouille Sauvage"
+ActionPreNarrative="Maintenant que nous sommes libres, les miens explorent souvent les terres abandonnées de cette planète et découvrent de nombreux secrets oubliés. Vos soldats peuvent nous joindre s'ils veulent."
+ActionPostNarrative="Notre patrouille a trouvé divers lieux qui pourraient se montrer dignes d'intérêt, avec une enquête approfondie."
+
+[CovertActionNarrative_PatrolWilderness_Reapers X2CovertActionNarrativeTemplate]
+ActionName="Patrouille Sauvage"
+ActionPreNarrative="Le monde que nous connaissions n'est plus, mais mon peuple parcourt fréquemment ce qu'il en reste. Nous accueillons vos soldats qui voudraient patrouiller avec nous."
+ActionPostNarrative="Notre patrouille a trouvé divers lieux qui pourraient se montrer dignes d'intérêt, avec une enquête approfondie."
+
+[CovertActionNarrative_PatrolWilderness_Templars X2CovertActionNarrativeTemplate]
+ActionName="Patrouille Sauvage"
+ActionPreNarrative="Mes adeptes sont en symbiose avec cette terre et l'énergie qui la parcourt. Nous sentons les secrets qu'elle cache... et nous pouvons vous les montrer."
+ActionPostNarrative="Notre patrouille a trouvé divers lieux qui pourraient se montrer dignes d'intérêt, avec une enquête approfondie."
+
+[CovertAction_BlackMarket X2CovertActionTemplate]
+ActionObjective="Révéler le Marché Noir"
+
+[Reward_BlackMarket X2RewardTemplate]
+DisplayName="Marché Noir"
+
+[CovertActionNarrative_BlackMarket_Skirmishers X2CovertActionNarrativeTemplate]
+ActionName="Aider les contrebandiers"
+ActionPreNarrative="Le Marché Noir a été dispersé suite à une opération de lutte de contrebande d'ADVENT il y a quelques temps. Nous devrions envoyer une escouade pour les aider à se remettre sur pieds."
+ActionPostNarrative="Nous avons sauvé nos amis contrebandiers des mains d'ADVENT, mais il va nous falloir les retrouver en utilisant le scanner du Talion."
+
+[CovertActionNarrative_BlackMarket_Reapers X2CovertActionNarrativeTemplate]
+ActionName="Aider les contrebandiers"
+ActionPreNarrative="Le Marché Noir a été dispersé suite à une opération de lutte de contrebande d'ADVENT il y a quelques temps. Nous devrions envoyer une escouade pour les aider à se remettre sur pieds."
+ActionPostNarrative="Nous avons sauvé nos amis contrebandiers des mains d'ADVENT, mais il va nous falloir les retrouver en utilisant le scanner du Talion."
+
+[CovertActionNarrative_BlackMarket_Templars X2CovertActionNarrativeTemplate]
+ActionName="Aider les contrebandiers"
+ActionPreNarrative="Le Marché Noir a été dispersé suite à une opération de lutte de contrebande d'ADVENT il y a quelques temps. Nous devrions envoyer une escouade pour les aider à se remettre sur pieds."
+ActionPostNarrative="Nous avons sauvé nos amis contrebandiers des mains d'ADVENT, mais il va nous falloir les retrouver en utilisant le scanner du Talion."
+
+[UIAlert]
+m_strOutpostBody=Une fois une radio de relais installée, la Résistance de <XGParam:StrValue0/!WorldRegionName/> augmentera de +<XGParam:IntValue0/> leur collection de ressources. Le coût de contact des régions avoisinantes sera aussi réduit, des Fils Avancés d'Activités apparaîtront, et n'importe quelle installation du projet Avatar sera déverrouillé.
+
+[UIStrategyPolicy]
+LockedSlotLabel=AUGMENTER L'INFLUENCE VIA DES OPÉRATIONS SECRÈTES
+
+[ActionableFacilityLead X2ItemTemplate]
+FriendlyName="Piste d'action"
+FriendlyNamePlural="Pistes d'actions"
+BriefSummary="Maintenant que les données ont été déchiffrées, nous connaissons les fréquences utilisées par les installations d'ADVENT et nous pouvons déployer des brouilleurs pour attaquer en toute sécurité l'une d'entre elle. Une seule cependant... Que l'on ressorte victorieux ou non, ADVENT réagira immédiatement pour s'assurer que les autres installations seront protégées, et nos données deviendront obsolètes."
+
+[FacilityLeadItem X2ItemTemplate]
+BriefSummary="Une cache d'information précieuse à propos d'une installation d'ADVENT. Notre équipe de recherche peut s'en servir pour découvrir un moyen de déployer des brouilleurs et attaquer une installation, mais cela coûtera du temps et des renseignements."
+
+[Tech_AlienFacilityLead X2TechTemplate]
+DisplayName="Piste d'installation"
+Summary="Nos forces ont récemment découvert des informations sur une installation d'ADVENT. Si nous pouvons déchiffrer avec succès ces données, nous pourrions mener une frappe tactique." 
+CodeName="Insight"
+LongDescription="Bien que cela ait pris du temps, je suis parvenu à déchiffrer les données d'ADVENT récemment obtenues.\nComme prévu, ces données donnent des détails sur les protocoles de sécurité des installations d'ADVENT. Avec ce savoir, nous serons en mesure de déployer des brouilleurs de signaux et envoyer une escouade pour attaquer et détruire une installation du projet Avatar.\nCependant, ADVENT modifiera sans doute ses méthodes de chiffrage une fois qu'ils comprendront quel est notre plan. Ces informations ne nous seront donc utiles que pour une seule attaque.\nSans le moindre doute, réussir cette attaque et entraîner la destruction d'une installation d'ADVENT portera un grand coup à ADVENT et au Projet Avatar.\n- Dr. R. Tygan."
+UnlockedDescription="Piste d'installation convertie en Piste d'Action"
+
+; Note: the double header is required. Does NOT work without it
+[XComGame.UIMission_AlienFacility]
+[UIMission_AlienFacility]
+m_strLockedHelp="Nous devons trouver une Piste d'Action ou construire une radio de relais dans cette région avant de pouvori attaquer cette installation !"
+
+[DefaultGatecrasherCI X2MissionNarrativeTemplate]
+ObjectiveTextPools[0]="THIS_IS_A_BUG"
+ObjectiveTextPools[1]="Sauver les prisonniers"
+ObjectiveTextPools[2]="Éliminer tous les ennemis"
+ObjectiveTextPools[3]="Les prisonniers doivent survivre"
+
+; Ignore this, game throws warnings if it doesn't exist
+ConsoleObjectiveTextPools[0]=
+ConsoleObjectiveTextPools[1]=
+
+[DefaultSabotageCC X2MissionNarrativeTemplate]
+ObjectiveTextPools[0]="Unused"
+ObjectiveTextPools[1]="Amorcer les charges de X4 sur le monument"
+ObjectiveTextPools[2]="Extraire tous les soldats de XCOM"
+
+[GatecrasherCI X2MissionTemplate]
+DisplayName="Opération Trouble-Fête"
+Briefing="Infiltrez le bâtiment d'ADVENT et sauvez les VIPs"
+PostMissionType="Opération Trouble-Fête"
+BriefingImage="img:///UILibrary_Common.Xcom_default"
+ObjectiveTextPools[0]="Parcourez la zone et éliminez tous les ennemis"
+ObjectiveTextPools[1]="Sauvez les prisonniers dans leurs cellules"
+ObjectiveTextPools[2]="Gardez les prisonniers en vie"
+PreMissionNarratives[0]="X2NarrativeMoments.TACTICAL.SabotageCC.T_SabotageCC_Narrative_Wrappers_04"
+
+[MissionSource_GatecrasherCI X2MissionSourceTemplate]
++BattleOpName="Opération Trouble-Fête"
+
+; The player shouldn't ever see this, but just in case
+[GatecrasherCI X2MissionFlavorTextTemplate]
+FlavorText="THIS_IS_A_BUG"
+
+[Header_CovertInfiltration X2EncyclopediaTemplate]
+ListTitle="COVERT INFILTRATION"
