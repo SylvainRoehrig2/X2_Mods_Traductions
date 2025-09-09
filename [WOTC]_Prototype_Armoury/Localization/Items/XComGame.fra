@@ -1,0 +1,26 @@
+[TLE_KevlarArmor X2ArmorTemplate]
+FriendlyName="Vieille armure récupérée"
+FriendlyNamePlural="Vieilles armures récupérées"
+BriefSummary="Cette armure simple consiste en diverses protections agglutinées, provenant de caches d'armes de la résistance ou récupérées sur le terrain. Elle ne donne qu'une protection minime contre ADVENT et son arsenal extraterrestre."
+TacticalText="<Bullet/> Tout soldat reçoit une armure en Kevlar dans leur kit standard.\n<Bullet/> Par la recherche, nous pourrions avoir accès à de meilleures armures."
+
+[TLE_PlatedArmor X2ArmorTemplate]
+FriendlyName="Prototype d'armure récupérée"
+FriendlyNamePlural="Prototypes d'armures récupérées"
+BriefSummary="Utilisant des plaques d'armures d'ADVENT récupérées, cette armure octroie une meilleure défense à nos soldats, ainsi qu'un emplacement supplémentaire d'inventaire."
+TacticalText="<Bullet/> Armure de taille moyenne composée de matériaux d'ADVENT.\n<Bullet/> Étant une armure de classe moyenne, elle octroie un emplacement supplémentaire d'inventaire à nos soldats."
+
+[TLE_PoweredArmor X2ArmorTemplate]
+FriendlyName="Armure de Guerre Expérimentale"
+FriendlyNamePlural="Armures de Guerre Expérimentales"
+BriefSummary="Maîtrisant désormais l'utilisation de l'élérium, nous sommes en mesure d'utiliser cette technologie pour développer des armures aussi versatiles que résistantes, et c'est ce que nous avons fait avec l'Armure de Guerre."
+TacticalText="<Bullet/> Armure de classe moyenne de grande qualité.\n<Bullet/> L'Armure de Guerre dispose de 2 emplacements d'inventaire."
+
+[SparkBit_CV X2GremlinTemplate]
+BriefSummary="Le BIT est une variante de nos drones GREMLIN, remplaçant ses capacités de soin et d'attaques électriques par des armes lourdes."
+
+[SparkBit_MG X2GremlinTemplate]
+BriefSummary="En utilisant des alliages extraterrestres sur le BIT, nous sommes en mesure de remanier sa conception pour avoir plus d'espace et installer des modules de combat électroniques supplémentaires."
+
+[SparkBit_BM X2GremlinTemplate]
+BriefSummary="Les cellules d'énergie à base d'élérium permettent désormais à nos drones d'avoir une puissance de feu et de combat électronique accrus."
