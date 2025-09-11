@@ -257,12 +257,12 @@ ActionPreNarrative="Les miens ont trouvés une usine désaffectée de l'ancien m
 ActionPostNarrative="C'est un succès ! Avec votre aide, nous avons pu un peu nous servir de l'usine et de nous en aller avant qu'ADVENT ne puisse intervenir."
 
 [CovertActionNarrative_UtilityItems_Reapers X2CovertActionNarrativeTemplate]
-ActionName="Factory Reactivation"
+ActionName="Réactivation d'usine"
 ActionPreNarrative="Mon peuple a découvert une usine désaffectée de l'ancien monde. Avec vos anciens codes de XCOM et un peu d'aide, nous pourrions la remettre en marche et nous en aller avec le butin avant qu'ADVENT ne nous détecte."
 ActionPostNarrative="C'est un succès ! Avec votre aide, nous avons pu un peu nous servir de l'usine et de nous en aller avant qu'ADVENT ne puisse intervenir."
 
 [CovertActionNarrative_UtilityItems_Templars X2CovertActionNarrativeTemplate]
-ActionName="Factory Reactivation"
+ActionName="Réactivation d'usine"
 ActionPreNarrative="Mes adeptes ont senti la présence d'une usine désaffectée de l'ancien monde. Avec vos anciens codes de XCOM et un peu d'aide, nous pourrions la remettre en marche et nous en aller avec le butin avant qu'ADVENT ne nous détecte."
 ActionPostNarrative="C'est un succès ! Avec votre aide, nous avons pu un peu nous servir de l'usine et de nous en aller avant qu'ADVENT ne puisse intervenir."
 
